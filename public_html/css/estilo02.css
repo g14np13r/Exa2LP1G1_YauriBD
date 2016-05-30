@@ -1,0 +1,78 @@
+body{
+    background: url(../image/pri.jpg)no-repeat fixed center center #333;
+    background-size: cover;
+    cursor: crosshair;
+}
+
+#Principal {
+    width: 980px;
+    margin: 0 auto;
+}
+
+#Cabeza{
+    position: relative;
+    height: 180px;
+    background: #959595;
+    background-size: cover;
+    font-family:Viner Hand ITC;
+    font-size:40px;
+    font-weight:bold;
+    margin-right:10px;
+    color:darkgoldenrod;
+    text-shadow: 0px 1px 0px rgba(230,230,230,1), 2px 2px 0px rgba(200,200,200,1), 3px 3px 0px rgba(180,180,180,1), 4px 4px 0px rgba(160,160,160,1), 5px 5px 0px rgba(0,0,0,1), 8px 8px 20px rgba(0,0,0,0.5);
+    border-radius: 5px 5px 5px 5px;
+}
+
+nav{
+    width: 100%;
+    background: cornflowerblue;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 100;
+    border-radius: 7px;
+}
+
+nav ul {
+    list-style:none;
+    margin:0 10px 0 10px;
+    padding:0;
+}
+
+nav ul li{
+    
+    border-radius:5px;
+    float:left;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:24px;
+    font-weight:bold;
+    margin-right:10px;
+    text-align:center;
+    text-shadow: 0px 1px 0px #FFF;
+}
+
+nav ul li a{
+    color:darkslateblue;
+    display:block;
+    padding:10px;
+    text-decoration:none;
+}
+
+nav ul li a:hover{
+    background: #383838;
+    color: darkgoldenrod;
+}
+
+
+#Pie {
+    background: none repeat scroll 0 0 darkslateblue;
+    border-radius: 5px 5px 5px 5px;
+    clear: both;
+    color: darkgoldenrod;
+    font-size: 100%;
+    text-align: center;
+    width: 980px;
+    height: 50px;
+}
